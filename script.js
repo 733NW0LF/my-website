@@ -3,14 +3,14 @@ window.onload = () => {
   myInput.onpaste = (e) => e.preventDefault();
 };
 const COMMANDS = {
-  help: 'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">acknowledges</span>, <span class="code">contact</span>, <span class="code">resume</span>',
+  help: 'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">acknowledges</span>, <span class="code">contact</span>',
   about:
     "Hello 👋<br>I'm Aswin Krishna.<br> An 19 years old Pentester and Bug Bounty hunter currently living in Kerala,India.",
   skills:
     '<span class="code">Skill:</span> Ethical Hacking, Pen-Testing, Bug Hunting, Web Designing..<br>',
   education:
     "Sree vidhyathi Raja Arts&science College,karunagappaly, Kerala, India<br> BCA , 1st Year",
-  resume: "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
+  
   experience: "No Experience😥",
   acknowledges:
     "<a href='https:blackberry.com/us/en/services/blackberry-product-security-incident-response' class='success link'>Blackberry HOF on 2021</a> , <a href='https://support.apple.com/en-in/HT201536/' class='success link'>Apple HOF On April 2021</a> , <a href='https://sellfy.com/security/' class='success link'>Sellfy HOF 2021</a> , <a href='https://corp.mediatek.com/it-security-acknowledgements' class='success link'>mediatek HOF</a> , <a href='https://security.olx.com/security-hall-of-fame.html' class='success link'>OLX HOF 2021</a> , <a href='https://www.uu.nl/en/organisation/information-and-technology-services-its/hall-of-fame-responsible-disclosure' class='success link'>UU.nl HOF</a> , <a href='https://www.basf.com/global/en/legal/responsible-disclosure-statement.html' class='success link'>BASF HOF 2021</a> ",
